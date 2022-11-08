@@ -7,6 +7,8 @@ int32_t main(){
     combining subproblem -> minimum cost for reaching ith stone will be
     minimum of (cost to reach i-1th stone + going from i-1 -> i) and 
                (cost to reach i-2th stone + going from i-2 -> i)
+
+    Time complexity = O(n) .   Space complexity = O(n) 
     */
 
     // input and initialization with 0 indexing
